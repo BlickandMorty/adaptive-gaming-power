@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "installationRoot": "%ProgramData%\\AdaptiveGamingPower",
+  "taskPrefix": "Adaptive Gaming Power",
+  "battery": {
+    "processorMaximumPercent": 75,
+    "disableProcessorBoost": true,
+    "maximumPcieSavings": true
+  },
+  "ac": {
+    "processorMaximumPercent": 100
+  },
+  "games": [
+    {
+      "name": "Example Steam game",
+      "steamAppId": null,
+      "executable": "C:\\Games\\Example\\Game.exe",
+      "windowedArguments": ["-windowed"]
+    }
+  ]
+}
+
